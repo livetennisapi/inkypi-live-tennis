@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "tournament": "Cincinnati Open",
+      "tour": "atp",
+      "surface": "hard",
+      "indoor": false,
+      "format": "BO3",
+      "round": "Semifinal",
+      "round_code": "SF",
+      "status": "live",
+      "event_status": null,
+      "is_doubles": false,
+      "scheduled_time": "2026-08-16T17:00:00Z",
+      "players": {
+        "p1": {
+          "id": 5992,
+          "name": "Alcaraz C.",
+          "tour": "atp",
+          "country": "esp",
+          "ranking": 2,
+          "ranking_points": 8600,
+          "is_doubles_team": false
+        },
+        "p2": {
+          "id": 6021,
+          "name": "Sinner J.",
+          "tour": "atp",
+          "country": "ita",
+          "ranking": 1,
+          "ranking_points": 11480,
+          "is_doubles_team": false
+        }
+      },
+      "score": {
+        "sets": [1, 1],
+        "games": [[6, 4, 3], [3, 6, 4]],
+        "points": ["30", "40"],
+        "server": 1,
+        "is_tiebreak": false,
+        "win_probability_p1": null,
+        "danger": null,
+        "timestamp": "2026-08-16T18:42:11Z"
+      },
+      "winner": null
+    },
+    {
+      "id": 102,
+      "tournament": "Cincinnati Open",
+      "tour": "wta",
+      "surface": "hard",
+      "indoor": false,
+      "format": "BO3",
+      "round": "Final",
+      "round_code": "F",
+      "status": "live",
+      "event_status": null,
+      "is_doubles": false,
+      "scheduled_time": "2026-08-16T19:00:00Z",
+      "players": {
+        "p1": {
+          "id": 7113,
+          "name": "Swiatek I.",
+          "tour": "wta",
+          "country": "pol",
+          "ranking": 3,
+          "is_doubles_team": false
+        },
+        "p2": {
+          "id": 7008,
+          "name": "Sabalenka A.",
+          "tour": "wta",
+          "country": null,
+          "ranking": 1,
+          "is_doubles_team": false
+        }
+      },
+      "score": {
+        "sets": [0, 0],
+        "games": [[6], [6]],
+        "points": ["5", "4"],
+        "server": 2,
+        "is_tiebreak": true,
+        "win_probability_p1": null,
+        "danger": null,
+        "timestamp": "2026-08-16T19:48:02Z"
+      },
+      "winner": null
+    },
+    {
+      "id": 103,
+      "tournament": "Grodzisk Mazowiecki Challenger",
+      "tour": "challenger",
+      "surface": "clay",
+      "indoor": false,
+      "format": "BO3",
+      "round": "Quarterfinal",
+      "round_code": "QF",
+      "status": "live",
+      "event_status": null,
+      "is_doubles": false,
+      "scheduled_time": "2026-08-16T14:30:00Z",
+      "players": {
+        "p1": {
+          "id": 8231,
+          "name": "Gadecki O.",
+          "tour": "challenger_men",
+          "country": "pol",
+          "ranking": 214,
+          "is_doubles_team": false
+        },
+        "p2": {
+          "id": 8409,
+          "name": "Vergara Rivera M.",
+          "tour": "challenger_men",
+          "country": "chi",
+          "ranking": null,
+          "is_doubles_team": false
+        }
+      },
+      "score": {
+        "sets": [1, 0],
+        "games": [[7, 2], [5, 3]],
+        "points": ["AD", "40"],
+        "server": 2,
+        "is_tiebreak": false,
+        "win_probability_p1": null,
+        "danger": null,
+        "timestamp": "2026-08-16T16:05:44Z"
+      },
+      "winner": null
+    }
+  ],
+  "meta": { "count": 3, "limit": 50, "offset": 0 }
+}

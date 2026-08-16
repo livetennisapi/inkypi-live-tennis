@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": 9001,
+      "event_date": "2026-08-17",
+      "start_time": "2026-08-17T15:00:00Z",
+      "player1_id": 5992,
+      "player2_id": 6102,
+      "tour": "atp",
+      "tournament": "Winston-Salem Open",
+      "round": "1st Round",
+      "round_code": "R32",
+      "surface": "hard",
+      "player1_name": "Alcaraz C.",
+      "player2_name": "Fritz T.",
+      "status": "upcoming"
+    },
+    {
+      "id": 9002,
+      "event_date": "2026-08-17",
+      "start_time": "2026-08-17T16:30:00Z",
+      "player1_id": 7113,
+      "player2_id": null,
+      "tour": "wta",
+      "tournament": "Cleveland Open",
+      "round": "1st Round",
+      "round_code": "R32",
+      "surface": "hard",
+      "player1_name": "Swiatek I.",
+      "player2_name": "Qualifier",
+      "status": "upcoming"
+    },
+    {
+      "id": 9003,
+      "event_date": "2026-08-18",
+      "start_time": null,
+      "player1_id": null,
+      "player2_id": null,
+      "tour": "challenger_men",
+      "tournament": "Como Challenger",
+      "round": "Qualifying",
+      "round_code": "Q",
+      "surface": "clay",
+      "player1_name": "Cecchinato M.",
+      "player2_name": "Zeppieri G.",
+      "status": "upcoming"
+    },
+    {
+      "id": 9004,
+      "event_date": "2026-08-18",
+      "start_time": "2026-08-18T11:00:00Z",
+      "player1_id": null,
+      "player2_id": null,
+      "tour": "itf",
+      "tournament": "ITF W35 Verbier",
+      "round": "1st Round",
+      "round_code": "R32",
+      "surface": "clay",
+      "player1_name": "In-Albon Y.",
+      "player2_name": "Bandecchi S.",
+      "status": "upcoming"
+    }
+  ],
+  "meta": { "count": 4, "limit": 50, "offset": 0 }
+}

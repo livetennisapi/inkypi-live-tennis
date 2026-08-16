@@ -1,0 +1,33 @@
+<div class="form-group">
+    <label for="api_key" class="form-label">Live Tennis API Key:</label>
+    <input type="password" id="api_key" name="api_key" placeholder="ltapi_..." class="form-input" autocomplete="off">
+    <small style="opacity:0.7;">Free key: <a href="https://livetennisapi.com/subscribe/free" target="_blank" rel="noopener">livetennisapi.com/subscribe/free</a> (100 requests/day). Leave empty to use LIVE_TENNIS_API_KEY from the .env file.</small>
+</div>
+
+<div class="form-group">
+    <label for="tour" class="form-label">Tour:</label>
+    <select id="tour" name="tour" class="form-input">
+        <option value="" selected>All tours</option>
+        <option value="atp">ATP</option>
+        <option value="wta">WTA</option>
+        <option value="challenger">Challenger</option>
+        <option value="itf">ITF</option>
+        <option value="juniors">Juniors (Grand Slam draws)</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="player_filter" class="form-label">Player filter (optional):</label>
+    <input type="text" id="player_filter" name="player_filter" placeholder="e.g. Alcaraz, Sabalenka" class="form-input">
+    <small style="opacity:0.7;">Comma-separated names (substring match). Only matches or fixtures featuring these players are shown; leave empty to show everything.</small>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        if (loadPluginSettings) {
+            document.getElementById('api_key').value = pluginSettings.api_key || '';
+            document.getElementById('tour').value = pluginSettings.tour || '';
+            document.getElementById('player_filter').value = pluginSettings.player_filter || '';
+        }
+    });
+</script>

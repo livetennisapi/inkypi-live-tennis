@@ -1,0 +1,6 @@
+{
+    "display_name": "Live Tennis",
+    "id": "live_tennis",
+    "class": "LiveTennis",
+    "repository": "https://github.com/livetennisapi/inkypi-live-tennis"
+}
